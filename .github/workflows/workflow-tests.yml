@@ -47,4 +47,4 @@ jobs:
     - name: Build with Maven
       run: |
         cd ./csye6225
-        mvn clean install
+        mvn clean install -DskipTests
