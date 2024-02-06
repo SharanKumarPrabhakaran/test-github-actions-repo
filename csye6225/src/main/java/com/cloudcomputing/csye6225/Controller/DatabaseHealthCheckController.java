@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DatabaseHealthCheckController {
 
+    //testing GitHub workflow
+
     @Autowired
     private DatabaseHealthCheckService databaseHealthCheckService;
 
