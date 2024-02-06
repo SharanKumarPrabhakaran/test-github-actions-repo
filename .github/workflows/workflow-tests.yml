@@ -45,5 +45,5 @@ jobs:
         sleep 15
 
     - name: Build with Maven
-      working-directory: ../../../cyse6225/
+      working-directory: cyse6225/
       run: mvn -B clean package
