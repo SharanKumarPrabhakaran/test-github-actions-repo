@@ -1,9 +1,6 @@
 name: Java Build with MySQL
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
